@@ -6,7 +6,7 @@ $assunto = $_POST['assunto'];
 $status_ocorrencia = $_POST['status_ocorrencia'];
 
 
-	//VERIFICAR SE O MÉDICO JÁ ESTÁ CADASTRADO
+	//VERIFICAR SE O ITEM JÁ ESTÁ CADASTRADO
 	$res_c = $pdo->query("select * from home where assunto = '$assunto'");
 	$dados_c = $res_c->fetchAll(PDO::FETCH_ASSOC);
 	$linhas = count($dados_c);
