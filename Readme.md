@@ -1,7 +1,7 @@
 Projeto - Sistema de gestão de Condomínio
 desafio de programação ApCoders.
 
-Este projeto foi desenvolvido em php, utilizando componentes de AJAX para inserção, edição e exclusão de dados. Utilizado banco de dados relacional Mysql, rodado localmente via servidor xampp. Utilizado versionamento git.
+Este projeto foi desenvolvido em php, utilizando AJAX para processar requisiçoes. Utilizado banco de dados relacional Mysql, rodado localmente via servidor xampp. Utilizado versionamento git.
 
 O devido projeto contém:
 
