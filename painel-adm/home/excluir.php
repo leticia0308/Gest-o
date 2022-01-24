@@ -20,12 +20,6 @@ $res_usu->bindValue(":usu", $email);
 $res_usu->execute();
 
 
-//EXCLUIR NA TABELA DE FUNCIONÁRIOS
-$res_usu = $pdo->prepare("DELETE from funcionarios where email = :usu ");
-
-$res_usu->bindValue(":usu", $email);
-
-$res_usu->execute();
 
 
 
