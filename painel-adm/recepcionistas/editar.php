@@ -51,7 +51,7 @@ $res = $pdo->prepare("UPDATE usuarios set nome = :nome, usuario = :usuario, senh
 	$res->bindValue(":nome", $nome);
 	$res->bindValue(":usuario", $email);
 
-	//preg replace mantem os valores definidos e remove quaisquer outros, nesse caso pontos e traços do cpf, só vai ficar numeros de 0 a 9
+	
 	$cpf_sem_traco = preg_replace('/[^0-9]/', '', $cpf);
 
 	$res->bindValue(":senha", md5($cpf_sem_traco));
